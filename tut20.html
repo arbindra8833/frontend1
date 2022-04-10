@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(57, 83, 83);
+        }
+
+        .container {
+            background-color: #dbfddf;
+            border: 3px solid rgb(201, 223, 79);
+            /* we can set margin/padding for top right buttom and left like this  */
+            /* padding-top: 20px; */
+            /* padding-right: 56px; */
+            /* padding-bottom: 76; */
+            /* padding-left: 43px; */
+            /*padding/margin=top right buttom left */
+            /* padding: 85px 56px 67px 85px; */
+            /* padding: auto; */
+            /* padding= y(top buttom) xleft right) */
+            padding: 15px 30px;
+            margin: 15px 30px;
+            border-radius: 23px;
+            width: 233px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>this is my first heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sint error ipsum quisquam,
+            fugit veniam dolor quo aut! Expedita tempora natus laudantium, ipsa excepturi officia incidunt unde possimus
+            saepe soluta. Ullam autem cumque quisquam!</p>
+    </div>
+
+    <div class="container">
+        <h3>this is my second heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sint error ipsum quisquam,
+            fugit veniam dolor quo aut! Expedita tempora natus laudantium, ipsa excepturi officia incidunt unde possimus
+            saepe soluta. Ullam autem cumque quisquam!</p>
+    </div>
+
+    <div class="container">
+        <h3>this is my third heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sint error ipsum quisquam,
+            fugit veniam dolor quo aut! Expedita tempora natus laudantium, ipsa excepturi officia incidunt unde possimus
+            saepe soluta. Ullam autem cumque quisquam!</p>
+    </div>
+</body>
+
+</html>
